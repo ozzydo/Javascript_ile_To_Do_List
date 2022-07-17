@@ -30,7 +30,7 @@ function onlySpaces(str) {
 
 let listDOM = document.querySelector('#list')
 const addItem = (todoList)=>{
-    let liDOM = document.createElement("li") //element oluştruldu    
+    let liDOM = document.createElement("li") // element oluştruldu    
     liDOM.innerHTML = `${todoList}` // elementin içine yazıldı
     listDOM.append(liDOM); // element eklendi
 }
