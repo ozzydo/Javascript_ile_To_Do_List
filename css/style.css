@@ -105,3 +105,15 @@ input {
 .button:hover {
   background-color: #bbb;
 }
+
+.kapat {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+}
+
+.kapat:hover {
+  background-color: #f78501;
+  color: white;
+}
